@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">trial</string>
+
+    <string name="next">Next</string>
+    <string name="logo">company logo</string>
+    <string name="text_intro1">Travel Everywhere</string>
+    <string name="text_intro2">Best Room Rates</string>
+    <string name="text_intro3">Exotic Destinations</string>
+
+    <string name="desc_intro1">Enjoy flight to any destination with so many discounts and promotions</string>
+    <string name="desc_intro2">Book your favorite hotel room with hassle-free and reasonable rates</string>
+    <string name="desc_intro3">Enjoy your beautiful moments to exotic places around the world</string>
+
+
+    <string name="msg">Already have an account?</string>
+
+    <string name="LOGIN">LOG IN</string>
+    <string name="register">REGISTER</string>
+    <string name="Register">CREATE ACCOUNT</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="Forgot_password"><a href="http://foo.com">Forgot Password?</a></string>
+    <string name="Register_account">Don’t have an account?  Register here </string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="details">" Create an account to save stories and interest to your profile"</string>
+    <string name="pdetails">"Create your password to secure your account"</string>
+    <string name="tv_login">"don't have an account sign-in"</string>
+    <string name="pbdetails">"By Sign In you agree with Terms of service, I acknowledge and that our privacy and policy applies to you"</string>
+    <string name="checkbox_link">"I accept the Terms of Service and Privacy policy"</string>
+    <string name="loginMsg">Sign In or create an account to save stories and interest to your profile </string>
+    <string name="formattedText">I accept the <a href="http://foo.com">Terms of Service</a> and <a href="http://foo.com">Privacy policy</a></string>
+    <string name="directive">Have an account? <a href="http://foo.com">Log in</a></string>
+    <string name="hint_enterUserEmail">claudianbenet@gmail.com</string>
+    <string name="hint_enterUserPwd">**********</string>
+    <string name="hint_EndMsg">By Login you agree with Terms of service, I acknoledge and that our privacy and policy applies to you</string>
+
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">COVID-19</string>
+    <string name="slide_1_desc">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</string>
+
+    <string name="slide_2_title">Sick?</string>
+    <string name="slide_2_desc">Call the helpline or visit the nearest health center.</string>
+
+    <string name="slide_3_title">Wear Masks</string>
+    <string name="slide_3_desc">Stay Home. Go out only if necessary and wear masks.</string>
+
+    <string name="slide_4_title">Work from Home.</string>
+    <string name="slide_4_desc">Work from Home has become the new norm.</string>
+</resources>

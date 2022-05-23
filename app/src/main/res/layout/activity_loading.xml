@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoadingActivity"
+    android:background="@color/rifarly_green">
+
+<ProgressBar
+    android:id="@+id/loading"
+    android:layout_width="74dp"
+    android:layout_height="168dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="64dp"
+    android:visibility="gone"
+    app:layout_constraintBottom_toTopOf="@+id/loading_title"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.3" />
+
+<TextView
+    android:id="@+id/loading_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/loading"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="336dp"
+    android:fontFamily="sans-serif-black"
+    android:text="Rifaly is loading..."
+    android:textAlignment="center"
+    android:textColor="@android:color/white"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.275"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/loading_title2"
+    android:layout_width="331dp"
+    android:layout_height="72dp"
+    android:layout_below="@+id/loading_title"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="16dp"
+    android:fontFamily="sans-serif-black"
+    android:text="Preparing your dashboard and your books"
+    android:textColor="@android:color/white"
+    android:textSize="18sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.712"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/loading_title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

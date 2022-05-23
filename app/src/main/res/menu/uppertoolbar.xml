@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Lback"
+        android:icon="@drawable/arrow_left"
+        app:showAsAction="ifRoom"
+        android:title="Back">
+    </item>
+    <item
+        android:id="@+id/Lclose"
+        android:icon="@drawable/cross"
+        app:showAsAction="ifRoom|withText"
+        android:title="Close">
+    </item>
+</menu>
